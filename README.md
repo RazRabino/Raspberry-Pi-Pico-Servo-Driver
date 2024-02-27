@@ -23,5 +23,5 @@ const uint roll_servo_pin = 7;
 roll_servo.pwmservo_init(roll_servo_pin);
 roll_servo.pwmservo_write_micros(roll_servo_pin, (roll_angle));
 ```
-
+Pay attention that this library define channel 5 as safety channel (only when channel 5 is in a certain value range it's reads other channels data.
 </div>
